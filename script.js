@@ -212,7 +212,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const typedTextSpan = document.querySelector(".typed-text")
     const cursorSpan = document.querySelector(".cursor")
   
-    const textArray = ["React", "Node.js", "MongoDB", "TypeScript", "AWS", "UI/UX Design"]
+  const textArray = ["PHP", "Laravel", "Node.js", "React", "Python", "Java"]
     const typingDelay = 100
     const erasingDelay = 50
     const newTextDelay = 2000

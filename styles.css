@@ -1282,6 +1282,25 @@
     text-align: center;
     margin-top: 30px;
   }
+
+  
+  /* ===== CERTIFICATES SECTION ===== */
+  .certificates-section {
+    position: relative;
+  }
+
+  .certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .certificate-item img {
+    width: 100%;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+  }
   
   /* ===== CONTACT SECTION ===== */
   .contact-section {
